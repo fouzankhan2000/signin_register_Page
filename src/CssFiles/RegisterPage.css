@@ -1,0 +1,164 @@
+.main-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-div {
+    margin: 0;
+    padding: 0;
+    width:40%;
+    height: 100%;
+    background-color: #205E61;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-div img {
+    width: 60%;
+    height: 12%;
+}
+
+.right-div {
+    background-color: #F5F5F5;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4%;
+}
+
+.signin2 {
+    width: 44%;
+}
+
+.signin2 h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #205E61;
+}
+
+.signin2 p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin-top: -4%;
+}
+
+#signin-buttons2 {
+    width: 48%;
+}
+
+.form2 {
+    width: 45%;
+    height: 40%;
+    background-color: #fff;
+    border-radius: 6%;
+    padding-top: 1%;
+    padding-left: 5%;
+}
+
+.form2 form {
+    width: 90%;
+    height: 90%;
+}
+
+.form2 form p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.form2 .form-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 26%;
+    gap: 5%;
+}
+
+.form2 .form-details input {
+    border-radius: 10px;
+    border-style: none;
+    background-color: #F5F5F5;
+    width: 89%;
+    height: 34%;
+    padding-left: 4%;
+}
+
+.form2 .email-password {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}
+
+.form2 .email-password input {
+    border-radius: 10px;
+    border-style: none;
+    background-color: #F5F5F5;
+    width: 92%;
+    height: 38%;
+    padding-left: 4%;
+}
+
+.form2 form p span {
+    color: #346BD4;
+    cursor: pointer;
+}
+
+.button2 {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+}
+
+.button2 button {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    background-color: #205E61;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+.register2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #858585;
+    margin-top: -4%;
+}
+
+.register2 span {
+    color: #346BD4;
+    cursor: pointer;
+}
+
+@media screen and (min-device-width: 360px) and (max-device-width: 767px) {
+    .left-div h1 {
+        font-size: 99%;
+    }
+    .signin {
+        font-size: 80%;
+    }
+    #signin-buttons {
+        width: 20%;
+        padding-left: -50%;
+    }
+    .form {
+        width: 75%;
+        height: 40%;
+    }
+    .register {
+        display: flex;
+        width: 70%;
+    }
+
+}
